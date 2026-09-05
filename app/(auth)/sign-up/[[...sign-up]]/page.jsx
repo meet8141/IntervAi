@@ -118,7 +118,7 @@ export default function Page() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="John Doe"
-                    className="w-full h-12 px-4 border-2 border-[#e5d5c8] focus:border-[#4a6b5b] focus:ring-1 focus:ring-[#4a6b5b] rounded-[20px] outline-none transition-colors"
+                    className="w-full h-12 px-4 border-2 border-[#e5d5c8] text-[#000] focus:border-[#4a6b5b] focus:ring-1 focus:ring-[#4a6b5b] rounded-[20px] outline-none transition-colors"
                   />
                 </div>
                 <div className="space-y-2">
@@ -129,7 +129,7 @@ export default function Page() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="you@example.com"
-                    className="w-full h-12 px-4 border-2 border-[#e5d5c8] focus:border-[#4a6b5b] focus:ring-1 focus:ring-[#4a6b5b] rounded-[20px] outline-none transition-colors"
+                    className="w-full h-12 px-4 border-2 border-[#e5d5c8] text-[#000] focus:border-[#4a6b5b] focus:ring-1 focus:ring-[#4a6b5b] rounded-[20px] outline-none transition-colors"
                   />
                 </div>
                 <div className="space-y-2">
@@ -140,7 +140,7 @@ export default function Page() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="At least 6 characters"
-                    className="w-full h-12 px-4 border-2 border-[#e5d5c8] focus:border-[#4a6b5b] focus:ring-1 focus:ring-[#4a6b5b] rounded-[20px] outline-none transition-colors"
+                    className="w-full h-12 px-4 border-2 border-[#e5d5c8] text-[#000] focus:border-[#4a6b5b] focus:ring-1 focus:ring-[#4a6b5b] rounded-[20px] outline-none transition-colors"
                   />
                 </div>
                 <button
