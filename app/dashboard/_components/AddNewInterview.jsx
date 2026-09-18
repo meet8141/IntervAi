@@ -15,7 +15,7 @@ import { sendMessage } from "utils/Geminimodel";
 import { LoaderCircle, Sparkles } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import { toast } from 'sonner';
-import { useUser } from '@clerk/clerk-react';
+import { useUser } from '@/context/AuthContext';
 import moment from 'moment';
 import { useRouter } from 'next/navigation';
 

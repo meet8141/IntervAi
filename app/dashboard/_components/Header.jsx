@@ -1,5 +1,5 @@
 "use client"
-import { UserButton } from '@clerk/nextjs'
+import UserButton from '@/components/UserButton'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -61,14 +61,7 @@ function Header() {
                             );
                         })}
                     </nav>
-                        <UserButton 
-                            afterSignOutUrl="/"
-                            appearance={{
-                                elements: {
-                                    avatarBox: "w-10 h-10 ring-2 ring-[#e5d5c8] hover:ring-[#4a6b5b] transition-all"
-                                }
-                            }}
-                        />
+                        <UserButton />
                     </div>
                 </div>
             </div>

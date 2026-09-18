@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 import useSpeechToText from 'react-hook-speech-to-text';
 import { Mic, MicOff, Video, Shield, TrendingUp, AlertTriangle, Info, Camera, Eye, Sun, MonitorSpeaker, MessageSquare, BookOpen, Volume2, Lightbulb, ArrowLeft, ArrowRight, Flag, ChevronUp, ChevronDown } from 'lucide-react';
 import { toast } from 'sonner';
-import { useUser } from '@clerk/clerk-react';
+import { useUser } from '@/context/AuthContext';
 import { sendMessage } from '@/utils/Geminimodel';
 import moment from 'moment';
 import { analyzeConfidence, getConfidenceColor, getConfidenceBgColor } from '@/utils/confidenceAnalyzer';

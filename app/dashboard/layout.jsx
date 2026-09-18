@@ -1,16 +1,19 @@
 import React from 'react';
 import Header from './_components/Header';
 import Footer from './_components/Footer';
+import ProtectedRoute from '@/components/ProtectedRoute';
 
 function DashboardLayout({children}) {
   return (
-    <div>
-      <Header />
+    <ProtectedRoute>
       <div>
-        {children}
+        <Header />
+        <div>
+          {children}
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </ProtectedRoute>
   )
 }
 

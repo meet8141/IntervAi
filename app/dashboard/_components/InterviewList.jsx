@@ -1,5 +1,5 @@
 "use client";
-import { useUser } from '@clerk/clerk-react'
+import { useUser } from '@/context/AuthContext'
 import React, { useEffect } from 'react'
 import InterviewcardList from './InterviewcardList';
 

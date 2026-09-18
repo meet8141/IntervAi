@@ -1,5 +1,4 @@
 "use client";
-import { UserButton } from '@clerk/clerk-react';
 import AddNewInterview from './_components/AddNewInterview';
 import BasicNonTechincal from './_components/BasicNonTechincal';
 import Dressing from './_components/dressing';
