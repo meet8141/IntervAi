@@ -41,7 +41,7 @@ Practice mock interviews with AI-generated questions, record your answers via sp
 - **Webcam Integration** — Optional webcam feed during practice sessions to simulate a real interview environment.
 - **Instant AI Feedback** — Each answer is evaluated by Gemini AI, returning a rating out of 10 along with constructive feedback.
 - **Detailed Feedback Dashboard** — Review question-by-question breakdowns with your answer, the ideal answer, and personalized improvement tips.
-- **Authentication & Protected Routes** — Secure sign-in/sign-up with Clerk; dashboard routes are fully protected via middleware.
+- **Authentication & Protected Routes** — Secure sign-in/sign-up with Firebase; dashboard routes are fully protected via middleware.
 - **Dark/Light Theme Support** — Toggle between themes using `next-themes`.
 - **Responsive Design** — Fully responsive UI built with Tailwind CSS and Radix UI primitives.
 
@@ -55,7 +55,7 @@ Practice mock interviews with AI-generated questions, record your answers via sp
 | Language       | JavaScript / JSX                                               |
 | Styling        | [Tailwind CSS](https://tailwindcss.com/) + Radix UI           |
 | AI Model       | [Google Gemini 2.5 Flash](https://ai.google.dev/)             |
-| Authentication | [Clerk](https://clerk.com/)                                    |
+| Authentication | [Firebase](https://firebase.google.com/)                                    |
 | Database       | [Neon Serverless Postgres](https://neon.tech/)                 |
 | ORM            | [Drizzle ORM](https://orm.drizzle.team/)                      |
 | Speech-to-Text | [react-hook-speech-to-text](https://www.npmjs.com/package/react-hook-speech-to-text) |
@@ -69,10 +69,10 @@ Practice mock interviews with AI-generated questions, record your answers via sp
 ```
 InterAi/
 ├── app/
-│   ├── layout.js                   # Root layout (Clerk, theme, toaster)
+│   ├── layout.js                   # Root layout (Firebase, theme, toaster)
 │   ├── page.js                     # Landing / hero page
 │   ├── globals.css                 # Global styles
-│   ├── (auth)/                     # Clerk auth pages
+│   ├── (auth)/                     # Firebase auth pages
 │   │   ├── sign-in/[[...sign-in]]/page.jsx
 │   │   └── sign-up/[[...sign-up]]/page.jsx
 │   ├── api/
