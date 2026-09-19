@@ -229,6 +229,3 @@ The app will be available at **http://localhost:3000**.
 
 ---
 
-## License
-
-This project is open-source. Feel free to use and modify it for your own purposes.
