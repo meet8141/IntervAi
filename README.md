@@ -9,7 +9,7 @@ Practice mock interviews with AI-generated questions, record your answers via sp
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
 ![Gemini](https://img.shields.io/badge/Gemini_AI-2.5_Flash-4285F4?logo=google)
-![Clerk](https://img.shields.io/badge/Auth-Clerk-6C47FF?logo=clerk)
+![Firebase](https://img.shields.io/badge/Auth-Firebase-ff6000?logo=firebase)
 ![Drizzle](https://img.shields.io/badge/ORM-Drizzle-C5F74F)
 ![Neon](https://img.shields.io/badge/DB-Neon_Postgres-00E599?logo=postgresql)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss)
