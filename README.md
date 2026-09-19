@@ -131,9 +131,15 @@ npm install
 Create a `.env.local` file in the project root:
 
 ```env
-# firebaseAuthentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
-CLERK_SECRET_KEY=sk_test_...
+# firebase Authentication
+NEXT_PUBLIC_FIREBASE_API_KEY= your key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN= your domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID= you project ID
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET= your bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID= your sender ID
+NEXT_PUBLIC_FIREBASE_APP_ID= your App ID
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID= your measurement ID
+
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
