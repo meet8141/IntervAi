@@ -99,7 +99,7 @@ InterAi/
 │   ├── Geminimodel.js              # Google Gemini AI chat session config
 │   ├── schema.js                   # Drizzle DB schema (mockinterview, userAnswers)
 │   └── planData.js                 # Pricing plan definitions
-├── middleware.js                    # Clerk auth middleware (protects /dashboard)
+├── middleware.js                    # firebase auth middleware (protects /dashboard)
 ├── drizzle.config.js               # Drizzle Kit configuration
 ├── tailwind.config.js
 ├── next.config.mjs
@@ -115,7 +115,7 @@ InterAi/
 - **Node.js** ≥ 18
 - **npm** or **yarn**
 - A [Neon](https://neon.tech/) Postgres database (or any Postgres instance)
-- A [Clerk](https://clerk.com/) application (for auth keys)
+- A [Firebase](https://firebase.google.com/) application (for auth keys)
 - A [Google AI Studio](https://aistudio.google.com/) API key (for Gemini)
 
 ### Installation
@@ -131,7 +131,7 @@ npm install
 Create a `.env.local` file in the project root:
 
 ```env
-# Clerk Authentication
+# firebaseAuthentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
 CLERK_SECRET_KEY=sk_test_...
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
